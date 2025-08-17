@@ -3,11 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <title>Electron</title>
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' http://127.0.0.1:11470; media-src 'self' http://127.0.0.1:11470 blob:;"
-    />
+    <!-- Remove or comment out the CSP meta tag below -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="..."/> -->
     <link href="/src/renderer/src/app.css" rel="stylesheet">
   </head>
 
