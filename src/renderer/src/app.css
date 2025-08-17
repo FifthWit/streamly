@@ -1,0 +1,81 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@import url('https://fonts.googleapis.com/css?family=Noto%20Sans%20Buginese:700|Noto%20Sans%20Buginese:400');
+
+@theme inline {
+    --color-background: var(--background);
+    --color-text: var(--text);
+    --color-primary: var(--primary);
+    --color-secondary: var(--secondary);
+    --color-accent: var(--accent);
+}
+
+@layer base {
+    :root {
+        /* Default */
+        --text: #efe2ee;
+        --background: #0b040a;
+        --primary: #ef5bde;
+        --secondary: #73296c;
+        --accent: #bd82f7;
+    }
+
+    .purple {
+        --primary: pink;
+    }
+
+    * {
+        font-family: 'Noto Sans Buginese', sans-serif;
+    }
+
+    body {
+        font-family: 'Noto Sans Buginese', sans-serif;
+        font-weight: 400;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-family: 'Noto Sans Buginese', sans-serif;
+        font-weight: 700;
+    }
+
+    html {
+        font-size: 100%;
+    }
+
+    /* 16px */
+
+    h1 {
+        font-size: 4.210rem;
+        /* 67.36px */
+    }
+
+    h2 {
+        font-size: 3.158rem;
+        /* 50.56px */
+    }
+
+    h3 {
+        font-size: 2.369rem;
+        /* 37.92px */
+    }
+
+    h4 {
+        font-size: 1.777rem;
+        /* 28.48px */
+    }
+
+    h5 {
+        font-size: 1.333rem;
+        /* 21.28px */
+    }
+
+    small {
+        font-size: 0.750rem;
+        /* 12px */
+    }
+}
